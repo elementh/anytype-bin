@@ -5,6 +5,8 @@ Exec=env DESKTOPINTEGRATION=0 APPIMAGELAUNCHER_DISABLE=1 anytype
 Terminal=false
 Type=Application
 Icon=anytype
-StartupWMClass=Anytype
-X-AppImage-Version=1.1.3
-Categories=Internet;
+StartupWMClass=anytype
+X-AppImage-Version=0.43.4
+Categories=Utility;
+MimeType=x-scheme-handler/anytype;
+Keywords=project management;
