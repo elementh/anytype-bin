@@ -1,6 +1,6 @@
 # Maintainer: elementh <hello@lucasmarino.me>                                     
 pkgname=anytype-bin
-pkgver=0.44.0
+pkgver=0.45.0
 pkgrel=1
 pkgdesc="Operating environment for the new internet. Anytype is a next generation software that breaks down barriers between applications, gives back privacy and data ownership to users."
 arch=('x86_64')
@@ -14,12 +14,12 @@ conflicts=('anytype'
            'anytype-legacy')
 _appimage="Anytype-${pkgver}.AppImage"
 source=(
-    "Anytype-${pkgver}.AppImage::https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype-${pkgver}.AppImage"
+    "Anytype-${pkgver}.AppImage::https://github.com/anyproto/anytype-ts/releases/download/v${pkgver}/Anytype-${pkgver}.AppImage"
     "anytype.desktop"
     "anytype.png"
     )
 noextract=("${_appimage}")
-sha256sums=('f807b4c47ea2a4d660215aeb02681e1bc6e26e6fc8dcd2e20cccd2f9fc1ff514'
+sha256sums=('69c15fb3e0d67d2fcf6eeaf6225715b69df1c1ea801bb164608544dd1d89c956'
             'fe5e13adc759f7d93382733ba942b2a49f0ec4817a1be95e1ac6e7d1495002db'
             '7967ea7a9c6237f7a3d32a6d352d1ac7b18fc29b329e662141bc21bf89d32939')
 
